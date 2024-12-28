@@ -1,0 +1,23 @@
+.slogan {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-top: 6rem;
+    margin-right: 6rem;
+    width: auto;
+    height: 300px;
+}
+
+p {
+    color: white;
+    font-family: Dense;
+    font-size: 120px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 80px;
+    }
+}
